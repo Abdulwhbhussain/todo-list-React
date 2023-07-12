@@ -1,0 +1,36 @@
+li {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    width: 580px;
+    border: 1px solid #ccc;
+}
+
+li > div > span {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: #ccc;
+}
