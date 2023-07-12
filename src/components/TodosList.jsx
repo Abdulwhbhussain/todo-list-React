@@ -1,4 +1,5 @@
 import TodoItem from "./TodoItem";
+import './TodosList.css';
 
 const TodosList = ({ todosProps, handleChange, delTodo, setUpdate }) => {
   return (

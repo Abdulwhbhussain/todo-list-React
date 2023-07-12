@@ -1,5 +1,6 @@
 // import '../styles/TodoItem.module.css';
 import { useState } from 'react';
+import './TodoItem.css';
 
 const TodoItem = ({ itemProp, handleChange, delTodo, setUpdate }) => {
 
@@ -33,7 +34,8 @@ const TodoItem = ({ itemProp, handleChange, delTodo, setUpdate }) => {
       />
       <button onClick={handleEditing}>Edit</button>
       <button onClick={() => delTodo(itemProp.id)}>Delete</button>
-      {itemProp.title}</div>
+      <span>{itemProp.title}</span>
+      </div>
       <input
       type="text"
       value={itemProp.title}
